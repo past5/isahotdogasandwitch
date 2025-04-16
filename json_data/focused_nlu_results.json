@@ -1,0 +1,527 @@
+{
+  "success": true,
+  "message": "Text analysis completed successfully",
+  "data_type": "json",
+  "output": {
+    "word_count": 70575,
+    "sentence_count": 4438,
+    "analysis": {
+      "text_stats": {
+        "word_count": 70575,
+        "sentence_count": 4438,
+        "avg_sentence_length": 15.902433528616493,
+        "unique_words": 914
+      },
+      "frequent_words": {
+        "pizza": 1373,
+        "sandwich": 1283,
+        "soup": 1238,
+        "curry": 1227,
+        "stew": 1151,
+        "would": 1008,
+        "like": 1000,
+        "two": 980,
+        "pieces": 964,
+        "chowder": 926,
+        "together": 923,
+        "question": 880,
+        "response": 880,
+        "type": 876,
+        "classify": 870,
+        "put": 864,
+        "bread": 210,
+        "yes": 159,
+        "still": 131,
+        "rice": 107
+      },
+      "sentiment": {
+        "compound": 1.0,
+        "positive": 0.078,
+        "neutral": 0.891,
+        "negative": 0.031,
+        "overall": "positive"
+      },
+      "topics": [
+        {
+          "id": 0,
+          "words": [
+            "pizza",
+            "stew",
+            "curry",
+            "soup",
+            "two",
+            "chowder",
+            "pieces",
+            "sandwich",
+            "together",
+            "like"
+          ],
+          "weights": [
+            304.5110916881678,
+            261.6222644588736,
+            249.2828236492976,
+            239.85708970471586,
+            230.6150303749847,
+            228.69683379377386,
+            228.49309728382482,
+            221.0979583985263,
+            220.16902352186858,
+            218.7795184706542
+          ]
+        },
+        {
+          "id": 1,
+          "words": [
+            "hot",
+            "dog",
+            "sandwich",
+            "consider",
+            "soup",
+            "something",
+            "q1_something_else_text",
+            "response",
+            "whether",
+            "pizza"
+          ],
+          "weights": [
+            26.015799708725822,
+            25.602209992104026,
+            25.16036453501231,
+            19.6788344250144,
+            18.787524116763187,
+            16.571788380955724,
+            13.141980336390825,
+            11.497932055830859,
+            10.413369138418368,
+            9.356115140802373
+          ]
+        },
+        {
+          "id": 2,
+          "words": [
+            "eaten",
+            "rice",
+            "response",
+            "curry",
+            "served",
+            "consistency",
+            "sauce",
+            "meat",
+            "soup",
+            "usually"
+          ],
+          "weights": [
+            25.704819988897615,
+            24.943026989373415,
+            22.324797121852345,
+            21.23598082893298,
+            19.48061776951222,
+            17.51760072803797,
+            17.310004964640786,
+            15.240207619369425,
+            14.965589710833164,
+            14.256978405669745
+          ]
+        },
+        {
+          "id": 3,
+          "words": [
+            "bread",
+            "think",
+            "liquid",
+            "ingredients",
+            "broth",
+            "response",
+            "sandwiches",
+            "stuff",
+            "sandwich",
+            "middle"
+          ],
+          "weights": [
+            20.319009147196983,
+            15.155397332782025,
+            14.705869604965907,
+            13.971756648003335,
+            13.193953002267016,
+            9.38697574011934,
+            8.78629202391985,
+            8.761977684241094,
+            8.338107777958264,
+            7.599928266961873
+          ]
+        },
+        {
+          "id": 4,
+          "words": [
+            "response",
+            "yes",
+            "sure",
+            "calzone",
+            "sandwich",
+            "pizza",
+            "consider",
+            "category",
+            "bread",
+            "really"
+          ],
+          "weights": [
+            141.3750423123866,
+            59.782388843488505,
+            17.737342942133857,
+            14.77409949207972,
+            14.359952229725376,
+            13.94501101579082,
+            11.444388344002176,
+            10.804849327181696,
+            9.70560375462954,
+            9.471820112322119
+          ]
+        }
+      ],
+      "llm_analysis": {
+        "themes": [
+          "Food categorization",
+          "Definition debates",
+          "Culinary semantics",
+          "Bread structure",
+          "Cultural perceptions"
+        ],
+        "sentiment": "Neutral to mildly contemplative",
+        "tone": "Reflective and analytical with hints of ambivalence",
+        "arguments": [
+          "A hot dog can be classified as a sandwich in broad categorization",
+          "The type of bread/bun determines if it's a sandwich",
+          "Traditional perception differs from technical definition",
+          "Toppings and additions might change the classification",
+          "Context and audience influence the classification"
+        ],
+        "nuances": [
+          "Distinction between technical definition and practical categorization",
+          "Recognition that classification depends on cultural context",
+          "Differentiation between menu categorization and conceptual categorization",
+          "The connectedness of the bread (one piece vs. two) as a defining factor",
+          "Complexity increases with additional ingredients"
+        ],
+        "summary": "The text presents various perspectives on whether a hot dog should be classified as a sandwich, with respondents considering factors like bread structure, toppings, cultural context, and practical versus technical definitions. The responses reveal that this seemingly simple question involves nuanced considerations about food categorization, with most answers acknowledging conditional classifications rather than absolute positions."
+      },
+      "analysis": {
+        "food_survey": {
+          "food_families": [
+            {
+              "name": "Sandwich-like foods",
+              "foods": [
+                "hot dog",
+                "taco",
+                "open-faced sandwich",
+                "pizza sandwich"
+              ],
+              "criteria": [
+                "has bread/bun",
+                "contains fillings",
+                "two separate pieces of bread",
+                "hand-held",
+                "structural integrity"
+              ],
+              "description": "Foods that have bread components surrounding fillings, typically eaten by hand"
+            },
+            {
+              "name": "Soup-like foods",
+              "foods": [
+                "cereal with milk",
+                "curry",
+                "stew",
+                "chowder"
+              ],
+              "criteria": [
+                "liquid base",
+                "contains solid pieces",
+                "eaten with spoon",
+                "predominantly liquid"
+              ],
+              "description": "Foods with a liquid component that typically contain solid ingredients and are eaten with utensils"
+            }
+          ],
+          "classification_criteria": {
+            "sandwich_criteria": [
+              "has at least two separate pieces of bread",
+              "contains at least one filling ingredient",
+              "structural integrity (bread doesn't break)",
+              "intent to be eaten as a sandwich",
+              "hand-held nature",
+              "bread surrounds filling in some way"
+            ],
+            "soup_criteria": [
+              "predominantly liquid base",
+              "contains solid ingredients",
+              "eaten with a spoon",
+              "typically served in a bowl",
+              "cooked in liquid",
+              "consistency (thickness)"
+            ]
+          },
+          "controversial_classifications": [
+            {
+              "food": "hot dog",
+              "debate": "Is it a sandwich?",
+              "common_arguments_for": [
+                "contains filling between bread",
+                "functions like a sandwich",
+                "becomes a sandwich if bun splits into two pieces"
+              ],
+              "common_arguments_against": [
+                "bun is connected",
+                "not stacked ingredients",
+                "culturally distinct from sandwiches"
+              ],
+              "controversy_reason": "The debate centers on whether a connected bun disqualifies hot dogs from being sandwiches, and whether structural changes (like a split bun) change its classification"
+            },
+            {
+              "food": "taco",
+              "debate": "Is it a sandwich?",
+              "common_arguments_for": [
+                "contains fillings between bread-like shell",
+                "hand-held like a sandwich"
+              ],
+              "common_arguments_against": [
+                "uses tortilla not bread",
+                "folded rather than stacked",
+                "culturally distinct category"
+              ],
+              "controversy_reason": "The debate focuses on whether the shell type (hard vs. soft) affects classification, and whether non-bread starch vessels qualify for sandwich status"
+            },
+            {
+              "food": "cereal with milk",
+              "debate": "Is it a soup?",
+              "common_arguments_for": [
+                "solid pieces in liquid",
+                "eaten with a spoon",
+                "served in a bowl"
+              ],
+              "common_arguments_against": [
+                "milk is not broth",
+                "not cooked",
+                "traditionally considered a breakfast food"
+              ],
+              "controversy_reason": "The debate hinges on whether the definition of soup requires cooking or specific types of liquid bases"
+            },
+            {
+              "food": "curry",
+              "debate": "Is it a soup, stew, or chowder?",
+              "common_arguments_for": [
+                "liquid base with solid ingredients",
+                "similar consistency to stews",
+                "eaten with utensils"
+              ],
+              "common_arguments_against": [
+                "more sauce-like than soup-like",
+                "culturally distinct category",
+                "typically served over rice rather than as standalone"
+              ],
+              "controversy_reason": "The classification depends on whether thickness and serving style are defining characteristics of soups versus sauces"
+            },
+            {
+              "food": "pizza sandwich",
+              "debate": "Is two pizza slices placed crust-sides out a sandwich?",
+              "common_arguments_for": [
+                "creates bread surrounding filling",
+                "structurally resembles a sandwich"
+              ],
+              "common_arguments_against": [
+                "still pizza, just rearranged",
+                "not intended to be a sandwich by creator",
+                "pizza crust isn't bread"
+              ],
+              "controversy_reason": "This debate explores whether intent and original food identity persist when structure is modified to resemble another food category"
+            }
+          ],
+          "creative_classifications": [
+            {
+              "name": "Structural integrity classification",
+              "description": "Classifying foods based on whether the bread/container maintains its integrity during consumption",
+              "example": "A hot dog becomes a sandwich only when the bun splits into two separate pieces"
+            },
+            {
+              "name": "Intent-based classification",
+              "description": "Classification depends on the chef's intent when creating the dish",
+              "example": "The degree to which the chef's intent matters when classifying foods as soups or sandwiches"
+            },
+            {
+              "name": "Minimum ingredient threshold",
+              "description": "Foods require a minimum number of ingredients beyond bread to qualify as a sandwich",
+              "example": "Determining the minimum number of ingredients required to classify something as a sandwich"
+            },
+            {
+              "name": "Cultural category precedence",
+              "description": "Traditional cultural categories override structural similarities",
+              "example": "Curry is not a soup despite liquid base because it's culturally distinct"
+            }
+          ]
+        },
+        "food_survey_controversy": {
+          "foods": [
+            {
+              "name": "hot dog",
+              "classification_debate": "Is it a sandwich?",
+              "arguments": {
+                "for_classification": [
+                  "It has meat between bread, meeting the basic definition of a sandwich",
+                  "If the bun splits into two pieces, it becomes even more sandwich-like",
+                  "It functions similarly to a sandwich in how it's eaten and held"
+                ],
+                "against_classification": [
+                  "The bun is a single piece of bread, not two separate pieces",
+                  "It has its own distinct cultural category separate from sandwiches",
+                  "The bread is connected on one side, creating a different structure than a traditional sandwich"
+                ]
+              },
+              "contention_factors": [
+                "The connected nature of the bun challenges traditional sandwich definitions",
+                "Cultural identity of hot dogs as their own food category",
+                "The transformation that occurs if the bun splits into two pieces"
+              ],
+              "unusual_perspectives": [
+                "A hot dog's classification may change based on structural integrity (if bun splits)",
+                "Some may consider orientation of the bun as determining factor (side-loading vs top-loading)",
+                "The hot dog might exist in a quantum state of being both sandwich and not-sandwich simultaneously"
+              ],
+              "broader_implications": "The hot dog debate reveals how people struggle with edge cases in food categorization, showing tension between structural definitions (ingredients between bread) and cultural definitions (what we traditionally call things)"
+            },
+            {
+              "name": "taco",
+              "classification_debate": "Is it a sandwich?",
+              "arguments": {
+                "for_classification": [
+                  "It contains fillings between a starch-based exterior",
+                  "Soft shell tacos especially resemble folded sandwiches",
+                  "It serves the same functional purpose as a sandwich"
+                ],
+                "against_classification": [
+                  "Tacos use tortillas, not bread, making them a distinct category",
+                  "Tacos are folded, not stacked like traditional sandwiches",
+                  "Tacos have their own cultural identity separate from sandwiches"
+                ]
+              },
+              "contention_factors": [
+                "The difference between bread and tortillas in food classification",
+                "Whether the folded vs. stacked structure matters",
+                "Cultural distinctions between Mexican and American food traditions"
+              ],
+              "unusual_perspectives": [
+                "Hard shell tacos might be more sandwich-like than soft shell (or vice versa)",
+                "Tacos might be considered a subcategory of 'hand-held foods' rather than sandwiches",
+                "Some might argue tacos are more like a category of their own that includes things like gyros and wraps"
+              ],
+              "broader_implications": "The taco debate highlights how cross-cultural food categorization creates tension between structural similarities and cultural origins in how we classify foods"
+            },
+            {
+              "name": "cereal with milk",
+              "classification_debate": "Is it a soup?",
+              "arguments": {
+                "for_classification": [
+                  "It consists of solid pieces in a liquid base, similar to soup",
+                  "It's consumed from a bowl with a spoon, like many soups",
+                  "The milk serves as a broth that the cereal items float in"
+                ],
+                "against_classification": [
+                  "Soups are typically savory, not sweet",
+                  "Cereal doesn't involve cooking the liquid with the solid ingredients",
+                  "Culturally, we categorize it as a breakfast food, not a soup"
+                ]
+              },
+              "contention_factors": [
+                "The distinction between sweet and savory in food classification",
+                "Whether cooking method matters in defining soup",
+                "The role of temperature (cold vs. hot) in food categories"
+              ],
+              "unusual_perspectives": [
+                "Cereal might be considered a 'cold soup' in the same category as gazpacho",
+                "The longer cereal sits in milk, the more soup-like it becomes as it softens",
+                "Some might argue it's more like a 'grain salad with dressing' than a soup"
+              ],
+              "broader_implications": "The cereal debate reveals how temperature, preparation method, and cultural context influence our food categories, showing the limitations of purely ingredient-based definitions"
+            },
+            {
+              "name": "curry",
+              "classification_debate": "Is it a soup?",
+              "arguments": {
+                "for_classification": [
+                  "It has a liquid base with solid ingredients, similar to stews which are considered soups",
+                  "It's eaten with a spoon from a bowl in many contexts",
+                  "It shares consistency similarities with thick soups like chowders"
+                ],
+                "against_classification": [
+                  "Curry is typically served over rice or with bread, unlike most soups",
+                  "Curry has a distinct cultural identity separate from Western soup traditions",
+                  "The sauce in curry is typically thicker and more integral to the dish than broth in soup"
+                ]
+              },
+              "contention_factors": [
+                "Cross-cultural food categorization challenges",
+                "The spectrum of liquid-to-solid ratios in food classification",
+                "How serving context (over rice, with bread) affects categorization"
+              ],
+              "unusual_perspectives": [
+                "Curry might be considered a 'sauce' that became a main dish",
+                "Different types of curry might fall into different categories (some more stew-like, others more sauce-like)",
+                "The classification might depend on region-specific preparation methods"
+              ],
+              "broader_implications": "The curry debate highlights how Western food taxonomy struggles to appropriately categorize non-Western foods, revealing ethnocentric biases in our food classification systems"
+            },
+            {
+              "name": "pizza sandwich",
+              "classification_debate": "Is it a sandwich?",
+              "arguments": {
+                "for_classification": [
+                  "Two pieces of pizza placed crust-sides out create a structure with fillings between bread-like exteriors",
+                  "It fulfills the functional purpose of a sandwich (portable, hand-held food)",
+                  "The crust serves the same role as bread in a traditional sandwich"
+                ],
+                "against_classification": [
+                  "Pizza is already its own food category with a distinct identity",
+                  "The 'bread' component (crust) is attached to the 'fillings' before assembly",
+                  "It's an artificial construction not recognized in culinary traditions"
+                ]
+              },
+              "contention_factors": [
+                "Whether reconfiguring existing foods creates new food categories",
+                "The importance of culinary tradition in food classification",
+                "Whether structure alone is sufficient to define a sandwich"
+              ],
+              "unusual_perspectives": [
+                "A pizza sandwich might be considered a 'calzone in reverse'",
+                "Some might argue it creates a new category of 'meta-foods' or 'food hacks'",
+                "The orientation of the crusts might matter (are they perfectly aligned or offset?)"
+              ],
+              "broader_implications": "The pizza sandwich debate reveals how food categorization struggles with novel combinations and reconfigurations, highlighting tensions between structural definitions and traditional culinary categories"
+            }
+          ],
+          "meta_analysis": {
+            "sandwich_definition_patterns": [
+              "Structural definitions focus on 'something between bread' regardless of cultural context",
+              "Traditional definitions emphasize historical and cultural recognition as a sandwich",
+              "Functional definitions consider how the food is held and eaten",
+              "Ingredient-based definitions focus on the specific types of bread/starch used",
+              "Orientation-based definitions distinguish between side-loading and top-loading items"
+            ],
+            "soup_definition_patterns": [
+              "Consistency-based definitions focus on solid-to-liquid ratios",
+              "Temperature-based definitions distinguish between hot and cold preparations",
+              "Preparation-based definitions emphasize cooking methods",
+              "Serving context definitions consider how and with what the dish is consumed",
+              "Cultural definitions prioritize traditional categorizations within specific cuisines"
+            ],
+            "food_categorization_insights": [
+              "Food categories reveal tension between structural similarity and cultural identity",
+              "Edge cases expose the limitations of rigid definition systems for foods",
+              "People often prioritize either technical definitions or cultural traditions when categorizing",
+              "Food categorization debates reflect broader philosophical questions about taxonomy and language",
+              "Cross-cultural foods particularly challenge Western classification systems",
+              "People enjoy debating food categories partly because they reveal arbitrary nature of many social conventions",
+              "Transformation of food (breaking, combining, reconfiguring) challenges static categorization systems"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

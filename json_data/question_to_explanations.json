@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "participant_id": "Unique identifier for each survey respondent",
+    "distribution_type": "Method used to distribute survey",
+    "distribution_name": "Name of the distribution channel",
+    "engagement_id": "Unique identifier for the survey engagement",
+    "engagement_started_EST": "Timestamp when participant started the survey (Eastern Time)",
+    "engagement_completed_EST": "Timestamp when participant completed the survey (Eastern Time)",
+    "engagement_participation_status": "Status of participant's survey completion",
+    "SurveyName": "Name of the survey ('Lunch Combo Question Set')",
+    "BrokerPanelId": "Panel identifier for broker-managed respondents",
+    "rebriv": "Rival Technologies internal identifier"
+  },
+  "questions": {
+    "Q1": {
+      "question_text": "Is a hot dog a sandwich?",
+      "variables": {
+        "Q1": "Multiple choice response (Yes/No/It depends/I refuse to answer)",
+        "Q1_something_else_video_or_text": "Format of additional response if provided",
+        "Q1_something_else_video_transcription": "Transcription of video response if provided",
+        "Q1_something_else_video_sentiment": "Sentiment analysis of video response",
+        "Q1_something_else_video_sentiment_percentage": "Confidence score of video sentiment analysis",
+        "Q1_something_else_text": "Additional text response if provided",
+        "Q1_something_else_text_sentiment": "Sentiment analysis of text response",
+        "Q1_something_else_text_sentiment_percentage": "Confidence score of text sentiment analysis"
+      }
+    },
+    "Q2": {
+      "question_text": "If the bottom of a hot dog bun rips, resulting in two separate pieces of bread containing the sausage, would it now be considered a sandwich?",
+      "variables": {
+        "Q2": "Multiple choice response (Yes/No)"
+      }
+    },
+    "Q3": {
+      "question_text": "What is the minimum number of ingredients, in addition to bread, required to classify something as a sandwich?",
+      "variables": {
+        "Q3": "Multiple choice response (0/1/2/3 or more)"
+      }
+    },
+    "Q4": {
+      "question_text": "Is a taco more likely to be considered a sandwich if it has a hard shell, or soft shell?",
+      "variables": {
+        "Q4": "Multiple choice response (Hard/Soft/Only if the bottom cracks or rips/Under no conditions)"
+      }
+    },
+    "Q5": {
+      "question_text": "What is the most important characteristic to consider when deciding whether something is a soup?",
+      "variables": {
+        "Q5": "Multiple choice response (The broth/The consistency/The way it's served/The primary flavor profile/Something else)",
+        "Q5_something_else_video_or_text": "Format of 'Something else' response",
+        "Q5_something_else_video_transcription": "Transcription of video response if provided",
+        "Q5_something_else_video_sentiment": "Sentiment analysis of video response",
+        "Q5_something_else_video_sentiment_percentage": "Confidence score of video sentiment analysis",
+        "Q5_something_else_text": "Additional text response if provided",
+        "Q5_something_else_text_sentiment": "Sentiment analysis of text response",
+        "Q5_something_else_text_sentiment_percentage": "Confidence score of text sentiment analysis"
+      }
+    },
+    "Q6": {
+      "question_text": "Is cereal with milk a type of soup?",
+      "variables": {
+        "Q6": "Multiple choice response (Yes/No/It depends)",
+        "Q6_something_else_video_or_text": "Format of additional response if provided",
+        "Q6_something_else_video_transcription": "Transcription of video response if provided",
+        "Q6_something_else_video_sentiment": "Sentiment analysis of video response",
+        "Q6_something_else_video_sentiment_percentage": "Confidence score of video sentiment analysis",
+        "Q6_something_else_text": "Additional text response if provided",
+        "Q6_something_else_text_sentiment": "Sentiment analysis of text response",
+        "Q6_something_else_text_sentiment_percentage": "Confidence score of text sentiment analysis"
+      }
+    },
+    "Q7": {
+      "question_text": "While sitting in a restaurant, are you more or less likely to order a sandwich from the menu after learning it is an 'open-faced' sandwich?",
+      "variables": {
+        "Q7": "Multiple choice response (Much more/A little more/It makes no difference/A little less/Much less)"
+      }
+    },
+    "Q8": {
+      "question_text": "Would you classify a curry as a type of soup, like stew or chowder? Why or why not?",
+      "variables": {
+        "Q8_video_or_text": "Format of response (video or text)",
+        "Q8_video_transcription": "Transcription if video response",
+        "Q8_video_sentiment": "Sentiment analysis of video response",
+        "Q8_video_sentiment_percentage": "Confidence score of video sentiment analysis",
+        "Q8_text": "Text response",
+        "Q8_text_sentiment": "Sentiment analysis of text response",
+        "Q8_text_sentiment_percentage": "Confidence score of text sentiment analysis"
+      }
+    },
+    "Q9": {
+      "question_text": "If two pieces of pizza are put together crust-sides out, is that a sandwich? Why or why not?",
+      "variables": {
+        "Q9_video_or_text": "Format of response (video or text)",
+        "Q9_video_transcription": "Transcription if video response",
+        "Q9_video_sentiment": "Sentiment analysis of video response",
+        "Q9_video_sentiment_percentage": "Confidence score of video sentiment analysis",
+        "Q9_text": "Text response",
+        "Q9_text_sentiment": "Sentiment analysis of text response",
+        "Q9_text_sentiment_percentage": "Confidence score of text sentiment analysis"
+      }
+    },
+    "Q10": {
+      "question_text": "To what degree does the intent of the chef matter when classifying foods as soups or sandwiches?",
+      "variables": {
+        "Q10": "Scale response (0-5, where 0 = 'Not at all' and 5 = 'It's the only thing that matters')"
+      }
+    }
+  },
+  "demographics": {
+    "AGE": "Age of respondent",
+    "GENDER": "Gender of respondent",
+    "REGION": "Geographic region of respondent",
+    "URBANRURAL": "Urban or rural classification",
+    "EDUCATION": "Education level",
+    "HHINCOME": "Household income",
+    "ETHNICITYROLL23": "Ethnicity classification (2023 standard)",
+    "VIZMINROLL23": "Visible minority status (2023 standard)",
+    "PMARITALSTATUS": "Marital status"
+  }
+}

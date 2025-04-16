@@ -1,0 +1,221 @@
+{
+  "food_classification": {
+    "food_families": {
+      "sandwich_candidates": {
+        "sandwich": 510,
+        "burger": 1,
+        "hot dog": 8,
+        "taco": 324,
+        "sub": 1,
+        "panini": 1,
+        "toast": 104,
+        "open-faced sandwich": 2,
+        "pizza sandwich": 14
+      },
+      "soup_candidates": {
+        "soup": 173,
+        "stew": 203,
+        "chowder": 52,
+        "broth": 201,
+        "curry": 168,
+        "cereal": 4,
+        "cereal with milk": 1,
+        "gazpacho": 1
+      },
+      "pizza_types": {
+        "pizza": 244,
+        "calzone": 25,
+        "flatbread": 1
+      },
+      "dessert_items": {
+        "pie": 79,
+        "pudding": 1
+      },
+      "controversial_items": {
+        "hot dog": 8,
+        "taco": 324,
+        "cereal with milk": 1,
+        "curry": 168,
+        "open-faced sandwich": 2,
+        "pizza sandwich": 14,
+        "stew": 203,
+        "calzone": 25
+      }
+    },
+    "food_controversies": {
+      "hot dog": {
+        "categories": [
+          "sandwich_candidates",
+          "controversial_items"
+        ],
+        "count": 8,
+        "controversy_score": 0.5171618477758697,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.03777148253068933,
+          "size_diversity": 0.058823529411764705,
+          "vote_closeness_factor": 0.8862275449101797,
+          "related_questions": [
+            "Q1",
+            "Q2"
+          ]
+        }
+      },
+      "taco": {
+        "categories": [
+          "sandwich_candidates",
+          "controversial_items"
+        ],
+        "count": 324,
+        "controversy_score": 0.43676470588235294,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 1.0,
+          "size_diversity": 0.058823529411764705
+        }
+      },
+      "open-faced sandwich": {
+        "categories": [
+          "sandwich_candidates",
+          "controversial_items"
+        ],
+        "count": 2,
+        "controversy_score": 0.13959756707215465,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.009442870632672332,
+          "size_diversity": 0.058823529411764705
+        }
+      },
+      "pizza sandwich": {
+        "categories": [
+          "sandwich_candidates",
+          "controversial_items"
+        ],
+        "count": 14,
+        "controversy_score": 0.08827740702564213,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.06610009442870632,
+          "size_diversity": 0.058823529411764705,
+          "vote_closeness_factor": 0.019960079840319445,
+          "related_questions": [
+            "Q9"
+          ]
+        }
+      },
+      "stew": {
+        "categories": [
+          "soup_candidates",
+          "controversial_items"
+        ],
+        "count": 203,
+        "controversy_score": 0.2122557293345321,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.9584513692162416,
+          "size_diversity": 0.0,
+          "vote_closeness_factor": 0.011976047904191711,
+          "related_questions": [
+            "Q8"
+          ]
+        }
+      },
+      "curry": {
+        "categories": [
+          "soup_candidates",
+          "controversial_items"
+        ],
+        "count": 168,
+        "controversy_score": 0.18746819392376723,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.7932011331444758,
+          "size_diversity": 0.0,
+          "vote_closeness_factor": 0.011976047904191711,
+          "related_questions": [
+            "Q8"
+          ]
+        }
+      },
+      "cereal with milk": {
+        "categories": [
+          "soup_candidates",
+          "controversial_items"
+        ],
+        "count": 1,
+        "controversy_score": 0.15912658264438923,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.004721435316336166,
+          "size_diversity": 0.0,
+          "vote_closeness_factor": 0.19183673469387763,
+          "related_questions": [
+            "Q6"
+          ]
+        }
+      },
+      "calzone": {
+        "categories": [
+          "pizza_types",
+          "controversial_items"
+        ],
+        "count": 25,
+        "controversy_score": 0.2513198557816122,
+        "score_components": {
+          "category_factor": 0.25,
+          "mention_factor": 0.11803588290840415,
+          "size_diversity": 0.45454545454545453
+        }
+      }
+    },
+    "category_relationships": {
+      "sandwich_candidates_controversial_items": {
+        "categories": [
+          "sandwich_candidates",
+          "controversial_items"
+        ],
+        "foods": [
+          "open-faced sandwich",
+          "hot dog",
+          "taco",
+          "pizza sandwich"
+        ],
+        "count": 4
+      },
+      "soup_candidates_controversial_items": {
+        "categories": [
+          "soup_candidates",
+          "controversial_items"
+        ],
+        "foods": [
+          "stew",
+          "cereal with milk",
+          "curry"
+        ],
+        "count": 3
+      },
+      "pizza_types_controversial_items": {
+        "categories": [
+          "pizza_types",
+          "controversial_items"
+        ],
+        "foods": [
+          "calzone"
+        ],
+        "count": 1
+      }
+    },
+    "statistics": {
+      "total_mentions": 2118,
+      "unique_terms": 22,
+      "category_counts": {
+        "sandwich_candidates": 9,
+        "soup_candidates": 8,
+        "pizza_types": 3,
+        "dessert_items": 2,
+        "controversial_items": 8
+      }
+    }
+  }
+}

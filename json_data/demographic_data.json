@@ -1,0 +1,1042 @@
+{
+  "Q1": {
+    "ALL": {
+      "labels": [
+        "\u274c No (62.5%)",
+        "\u2705 Yes (28.9%)",
+        "\ud83e\udd14 It depends (7.6%)",
+        "\ud83d\udeab I refuse to answer (1.0%)"
+      ],
+      "data": [
+        313,
+        145,
+        38,
+        5
+      ]
+    },
+    "GENDER": {
+      "Female": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          166,
+          67,
+          22,
+          3
+        ]
+      },
+      "Male": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          147,
+          78,
+          16,
+          2
+        ]
+      }
+    },
+    "REGION": {
+      "ON": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          149,
+          73,
+          12,
+          4
+        ]
+      },
+      "BC": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          57,
+          20,
+          11,
+          1
+        ]
+      },
+      "SK": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          13,
+          5,
+          1
+        ]
+      },
+      "MB": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          16,
+          7
+        ]
+      },
+      "QC": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          13,
+          5,
+          2
+        ]
+      },
+      "AB": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          36,
+          25,
+          8
+        ]
+      },
+      "ATL": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          29,
+          10,
+          4
+        ]
+      }
+    },
+    "URBANRURAL": {
+      "Rural": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          59,
+          16,
+          7
+        ]
+      },
+      "Urban": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          254,
+          129,
+          31,
+          5
+        ]
+      }
+    },
+    "EDUCATION": {
+      "Graduated from college/trade school": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          55,
+          44,
+          8
+        ]
+      },
+      "Some university": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          35,
+          7,
+          4,
+          2
+        ]
+      },
+      "Some college/trade school": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          25,
+          8,
+          2
+        ]
+      },
+      "University graduate degree, such as a master's or PhD": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          40,
+          21,
+          7
+        ]
+      },
+      "University undergraduate degree, such as a bachelor's degree": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          88,
+          35,
+          11,
+          2
+        ]
+      },
+      "High school graduate": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          63,
+          25,
+          5,
+          1
+        ]
+      },
+      "Some elementary or high school": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          7,
+          5,
+          1
+        ]
+      }
+    },
+    "HHINCOME": {
+      "$100,000 to less than $150,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          68,
+          26,
+          6
+        ]
+      },
+      "$50,000 to less than $100,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          90,
+          44,
+          11
+        ]
+      },
+      "Don't know / Rather not say": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          45,
+          19,
+          4,
+          2
+        ]
+      },
+      "$150,000 to less than $200,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83d\udeab I refuse to answer",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          25,
+          14,
+          2,
+          1
+        ]
+      },
+      "Over $200,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          31,
+          11,
+          4,
+          1
+        ]
+      },
+      "$25,000 to less than $50,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          33,
+          15,
+          6
+        ]
+      },
+      "Under $25,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          21,
+          16,
+          6
+        ]
+      }
+    },
+    "ETHNICITYROLL23": {
+      "White": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          265,
+          117,
+          27,
+          5
+        ]
+      },
+      "First Nations": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          8,
+          5,
+          1
+        ]
+      },
+      "Chinese": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          11,
+          7,
+          1
+        ]
+      },
+      "Filipino": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          7,
+          3
+        ]
+      },
+      "South Asian": {
+        "labels": [
+          "\u274c No",
+          "\ud83e\udd14 It depends",
+          "\u2705 Yes"
+        ],
+        "data": [
+          7,
+          5,
+          4
+        ]
+      },
+      "Latin American": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          4,
+          2,
+          1
+        ]
+      },
+      "Black": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          8,
+          3,
+          1
+        ]
+      },
+      "Multiple visible minorities": {
+        "labels": [
+          "\ud83e\udd14 It depends",
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          2,
+          2,
+          1
+        ]
+      },
+      "Southeast Asian": {
+        "labels": [
+          "\u274c No"
+        ],
+        "data": [
+          1
+        ]
+      },
+      "Arab/West Asian": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          1,
+          1
+        ]
+      },
+      "East Asian": {
+        "labels": [
+          "\u274c No"
+        ],
+        "data": [
+          1
+        ]
+      }
+    },
+    "VIZMINROLL23": {
+      "Not a visible minority": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          273,
+          122,
+          28,
+          5
+        ]
+      },
+      "Visible minority": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          40,
+          23,
+          10
+        ]
+      }
+    },
+    "PMARITALSTATUS": {
+      "Married": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          153,
+          61,
+          14,
+          1
+        ]
+      },
+      "Single, never married": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          77,
+          44,
+          15,
+          3
+        ]
+      },
+      "Common law": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends",
+          "\ud83d\udeab I refuse to answer"
+        ],
+        "data": [
+          46,
+          15,
+          3,
+          1
+        ]
+      },
+      "Widowed": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          9,
+          5,
+          3
+        ]
+      },
+      "Divorced": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes",
+          "\ud83e\udd14 It depends"
+        ],
+        "data": [
+          21,
+          16,
+          3
+        ]
+      },
+      "Separated": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          7,
+          4
+        ]
+      }
+    }
+  },
+  "Q2": {
+    "ALL": {
+      "labels": [
+        "\u274c No (55.7%)",
+        "\u2705 Yes (44.3%)"
+      ],
+      "data": [
+        279,
+        222
+      ]
+    },
+    "GENDER": {
+      "Female": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          149,
+          109
+        ]
+      },
+      "Male": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          130,
+          113
+        ]
+      }
+    },
+    "REGION": {
+      "ON": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          127,
+          111
+        ]
+      },
+      "BC": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          51,
+          38
+        ]
+      },
+      "SK": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          11,
+          8
+        ]
+      },
+      "MB": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          13,
+          10
+        ]
+      },
+      "QC": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          11,
+          9
+        ]
+      },
+      "AB": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          35,
+          34
+        ]
+      },
+      "ATL": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          31,
+          12
+        ]
+      }
+    },
+    "URBANRURAL": {
+      "Rural": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          57,
+          25
+        ]
+      },
+      "Urban": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          222,
+          197
+        ]
+      }
+    },
+    "EDUCATION": {
+      "Graduated from college/trade school": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          61,
+          46
+        ]
+      },
+      "Some university": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          34,
+          14
+        ]
+      },
+      "Some college/trade school": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          22,
+          13
+        ]
+      },
+      "University graduate degree, such as a master's or PhD": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          37,
+          31
+        ]
+      },
+      "University undergraduate degree, such as a bachelor's degree": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          74,
+          62
+        ]
+      },
+      "High school graduate": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          59,
+          35
+        ]
+      },
+      "Some elementary or high school": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          7,
+          6
+        ]
+      }
+    },
+    "HHINCOME": {
+      "$100,000 to less than $150,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          59,
+          41
+        ]
+      },
+      "$50,000 to less than $100,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          73,
+          72
+        ]
+      },
+      "Don't know / Rather not say": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          38,
+          32
+        ]
+      },
+      "$150,000 to less than $200,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          27,
+          15
+        ]
+      },
+      "Over $200,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          28,
+          19
+        ]
+      },
+      "$25,000 to less than $50,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          32,
+          22
+        ]
+      },
+      "Under $25,000": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          22,
+          21
+        ]
+      }
+    },
+    "ETHNICITYROLL23": {
+      "White": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          241,
+          173
+        ]
+      },
+      "First Nations": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          8,
+          6
+        ]
+      },
+      "Chinese": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          14,
+          5
+        ]
+      },
+      "Filipino": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          6,
+          4
+        ]
+      },
+      "South Asian": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          11,
+          5
+        ]
+      },
+      "Latin American": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          5,
+          2
+        ]
+      },
+      "Black": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          9,
+          3
+        ]
+      },
+      "Multiple visible minorities": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          3,
+          2
+        ]
+      },
+      "Southeast Asian": {
+        "labels": [
+          "\u274c No"
+        ],
+        "data": [
+          1
+        ]
+      },
+      "Arab/West Asian": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          1,
+          1
+        ]
+      },
+      "East Asian": {
+        "labels": [
+          "\u274c No"
+        ],
+        "data": [
+          1
+        ]
+      }
+    },
+    "VIZMINROLL23": {
+      "Not a visible minority": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          249,
+          179
+        ]
+      },
+      "Visible minority": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          43,
+          30
+        ]
+      }
+    },
+    "PMARITALSTATUS": {
+      "Married": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          145,
+          84
+        ]
+      },
+      "Single, never married": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          74,
+          65
+        ]
+      },
+      "Common law": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          33,
+          32
+        ]
+      },
+      "Widowed": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          9,
+          8
+        ]
+      },
+      "Divorced": {
+        "labels": [
+          "\u274c No",
+          "\u2705 Yes"
+        ],
+        "data": [
+          22,
+          18
+        ]
+      },
+      "Separated": {
+        "labels": [
+          "\u2705 Yes",
+          "\u274c No"
+        ],
+        "data": [
+          6,
+          5
+        ]
+      }
+    }
+  }
+}
