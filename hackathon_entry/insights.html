@@ -1872,6 +1872,153 @@
           max-height: calc(90vh - 70px); /* Subtract header height */
         }
     }
+     /* GPT Button Styles */
+     .gpt-button {
+        position: fixed;
+        bottom: 30px;
+        right: 190px; /* Position to the left of the video button */
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #10a37f, #0A8264);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+        z-index: 990;
+        transition: all 0.3s;
+        font-size: 1.4rem;
+      }
+      
+      .gpt-button:hover {
+        transform: translateY(-3px) scale(1.05);
+        background: linear-gradient(135deg, #0d906f, #086f55);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+      }
+      
+      .gpt-button i {
+        font-size: 24px;
+      }
+      
+      /* GPT Modal Styles */
+      .gpt-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s ease;
+        backdrop-filter: blur(5px);
+      }
+      
+      .gpt-modal.active {
+        opacity: 1;
+        pointer-events: all;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+      }
+      
+      .gpt-content {
+        width: 90%;
+        max-width: 1000px;
+        height: 90%;
+        background-color: white;
+        border-radius: var(--border-radius-lg);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        transform: translateY(30px);
+        transition: transform 0.4s ease;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+      }
+      
+      .gpt-modal.active .gpt-content {
+        transform: translateY(0);
+      }
+      
+      .gpt-header {
+        padding: 1.5rem;
+        background: linear-gradient(135deg, #10a37f, #0A8264);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .gpt-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.8rem;
+        margin: 0;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+      }
+      
+      .close-gpt {
+        font-size: 2.2rem;
+        color: white;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s;
+        opacity: 0.9;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      }
+      
+      .close-gpt:hover {
+        transform: rotate(90deg);
+        background-color: rgba(255, 255, 255, 0.1);
+        opacity: 1;
+      }
+      
+      .gpt-body {
+        flex-grow: 1;
+        height: calc(100% - 76px); /* Subtract header height */
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      .gpt-body iframe {
+        border: none;
+        width: 100%;
+        height: 100%;
+      }
+      
+      /* Responsive Styles */
+      @media screen and (max-width: 768px) {
+        .gpt-button {
+          right: 170px;
+          bottom: 30px;
+          width: 55px;
+          height: 55px;
+          font-size: 1.2rem;
+        }
+        
+        .gpt-title {
+          font-size: 1.4rem;
+        }
+        
+        .gpt-content {
+          width: 95%;
+          height: 90%;
+        }
+      }
     </style>
 </head>
 <body>
@@ -2267,6 +2414,24 @@
     <!-- Video Button -->
     <div class="video-button" id="openVideo">
       <i>🎬</i>
+    </div>
+
+    <!-- GPT Button -->
+    <a href="https://chatgpt.com/g/g-67ffdb3ba27481918e4955955d4e1f35-isahotdogasandwich" target="_blank" class="gpt-button" id="openGPT" title="Ask the Sandwich Classifier GPT">
+      <i>🤖</i>
+    </a>
+
+    <!-- GPT Modal -->
+    <div class="gpt-modal" id="gptModal">
+      <div class="gpt-content">
+        <div class="gpt-header">
+          <h2 class="gpt-title">Sandwich Classifier GPT</h2>
+          <button class="close-gpt" id="closeGPT">×</button>
+        </div>
+        <div class="gpt-body">
+          <iframe src="https://chatgpt.com/g/g-67ffdb3ba27481918e4955955d4e1f35-isahotdogasandwich" width="100%" height="100%" frameborder="0" allow="microphone"></iframe>
+        </div>
+      </div>
     </div>
 
     <!-- Video Modal -->
@@ -5306,6 +5471,32 @@
                 }
             });
         });
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get GPT modal references
+            const openGPT = document.getElementById('openGPT');
+            const closeGPT = document.getElementById('closeGPT');
+            const gptModal = document.getElementById('gptModal');
+            
+            // Open modal
+            openGPT.addEventListener('click', function() {
+              //gptModal.classList.add('active');
+              //document.body.style.overflow = 'hidden';
+            });
+            
+            // Close modal
+            closeGPT.addEventListener('click', function() {
+              gptModal.classList.remove('active');
+              document.body.style.overflow = 'auto';
+            });
+            
+            // Close modal when clicking outside of content
+            gptModal.addEventListener('click', function(e) {
+              if (e.target === gptModal) {
+                gptModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+              }
+            });
+          });
     </script>
     <div class="confetti-container" id="confettiContainer"></div>
 </body>
